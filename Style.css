@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/waves_.jpg);
+    background-attachment: fixed;
+}
+.Headerpage{
+    width: 1000px;
+    background-image: url(images/headerbg.jpg);
+    background-size: cover;
+    margin: auto;
+    border-bottom: 10px solid #0083ce;
+}
+.grid{
+    background-color: #00000038;
+    background-image: url(images/gridtile.png);
+}
+.logo{
+    text-align: center;
+    padding: 40px 0px;
+}
+.heading{
+    width: 1000px;
+}
+.headerheading{
+    width: 37%;
+    margin: 10vh auto 20vh auto ;
+    padding: 30px 0px;
+    text-align: center;
+    border-top: 2px solid turquoise;
+    border-bottom: 2px solid turquoise;
+}
+
+.headerheading h1{
+    font-weight: normal;
+    color: white;
+    font-size: 36px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+ul li{
+    width: 100px;
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
+
+ul li:last-child{
+    border: none;
+}
+
+.Page{   
+    width: 1000px;
+    margin: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.I1{
+    background-image: url("images/3.jpg");
+}
+.I2{
+    background-image: url("images/1.jpg");
+}
+.I3{
+    background-image: url("images/2.jpg");
+}
+.I4{
+    background-image: url("images/banner-7.jpg");
+}
+.I5{
+    background-image: url("images/4.jpg");
+}
+.TransHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #0000008f;    
+}
+.TransHead  h2{
+    width: 130px;
+    /* margin: auto; */
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.WhiteArea{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.WhiteArea p{
+    padding: 50px 30px;
+}
+.WhiteArea a{
+    color: black;
+    line-height: 50px;
+}
+.Hex{
+    margin: 90px 0 30px 0;
+}
+.WhiteArea h2{
+    padding-bottom: 30px;
+}
+.content{
+    padding-top: 40px;
+}
+.content h1,h2,h3{
+    font-weight: normal;
+}
+.footer{
+    width: 1000px;
+    background-color: rgba(0,0,0,0.6);
+    margin: auto;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    padding: 12px 0;
+}
+.footer p{
+    font-size: 13px;
+}
+p{
+    color: #182D55;
+}
